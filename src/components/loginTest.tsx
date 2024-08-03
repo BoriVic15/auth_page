@@ -10,7 +10,7 @@ const Login: React.FC = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen bg-red-500">
+    <div className="flex items-center justify-center h-screen bg-gray-300">
       <div className="bg-red p-8 rounded shadow-md">
         <h2 className="text-2xl font-bold mb-4">Login</h2>
         <form onSubmit={handleSubmit}>
