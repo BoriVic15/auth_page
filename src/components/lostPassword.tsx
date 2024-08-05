@@ -3,13 +3,11 @@ import bglogo from '../../../vite-project/src/assets/T. Hub logo.jpg'
 
 const LostPassword: React.FC = () => {
   const [phoneNumber, setPhoneNumber] = useState('');
-  const [email, setEmail] = useState ('');
   const [otp, setOtp] = useState ('');
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Phone number submitted:', phoneNumber);
-    console.log('Email submitted:', email);
     };
   
   const handleVerifyOtp = (e: React.FormEvent) => {
@@ -29,9 +27,7 @@ const LostPassword: React.FC = () => {
               type="tel email"
               id='phoneNumber, email' 
               value={phoneNumber}
-              value={email}
               onChange={(e) =>setPhoneNumber(e.target.value)}
-              onChange={(e) =>setEmail(e.target.value)}
               className='rounded py-2 w-11/12'
               required/>
             </div>
