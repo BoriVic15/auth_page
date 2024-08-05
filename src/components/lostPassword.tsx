@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import bglogo from '../../../vite-project/src/assets/logo.jpg'
+import bglogo from '../assets/logo.jpg'
 
 const LostPassword: React.FC = () => {
   const [phoneNumber, setPhoneNumber] = useState('');

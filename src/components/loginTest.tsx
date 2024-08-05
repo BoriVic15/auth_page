@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import prag from "../../../vite-project/src/assets/tiara.png";
-import logo from "../../../vite-project/src/assets/logo.jpg";
+import prag from "../assets/tiara.png";
+import logo from "../assets/logo.jpg";
 
 const Login: React.FC = () => {
   const [email, setEmail] = useState('');
