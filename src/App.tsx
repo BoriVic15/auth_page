@@ -1,9 +1,16 @@
-import Login from './components/loginTest'
+import Login from './components/loginTest';
+import LostPassword from './components/lostPassword';
+import Registration from './components/signUp';
 
 function App() {
   return (
-    <Login />
+    <div>  
+      <Login />
+      <LostPassword />
+      <Registration />
+    </div>
   )
 }
 
 export default App
+ 
