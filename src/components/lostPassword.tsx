@@ -24,8 +24,8 @@ const LostPassword: React.FC = () => {
             <div className='mb-4'>
               <label htmlFor="phone" className='block mb-2 text-slate-500'>Enter your email address or mobile number for OTP (+234):</label>
               <input 
-              type="tel email"
-              id='phoneNumber, email' 
+              type="tel"
+              id='phoneNumber' 
               value={phoneNumber}
               onChange={(e) =>setPhoneNumber(e.target.value)}
               className='rounded py-2 w-11/12'
