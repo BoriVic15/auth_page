@@ -16,7 +16,7 @@ const LostPassword: React.FC = () => {
   };
 
   return (
-    <div className='great-grand-container bg-gray-200 h-screen w-100% m-10'>
+    <div>
       <div className='grand-container grid grid-cols-2 h-screen'>
         <div className='container1 h-screen flex justify-center items-start flex-col pl-7'>
           <h2 className='font-bold text-2xl text-gray-900 font-sans mb-4'>Find your account</h2>
@@ -28,7 +28,7 @@ const LostPassword: React.FC = () => {
               id='phoneNumber' 
               value={phoneNumber}
               onChange={(e) =>setPhoneNumber(e.target.value)}
-              className='rounded py-2 w-11/12'
+              className='w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-indigo-200'
               required/>
             </div>
           </form>

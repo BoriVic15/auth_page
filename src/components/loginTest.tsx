@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import prag from '../../public/tiara.png';
-import logo from '../../public/logo.jpg';
 
 const Login: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -13,11 +13,8 @@ const Login: React.FC = () => {
   };
 
   return (
-    <div className="grid grid-cols-2 h-screen bg-gray-200">
-      <div className="flex flex-col justify-center bg-gray-200 p-5 rounded shadow-md">
-        <div className='flex justify-center'>
-          <img src={logo} alt="logo" className='rounded-full size-24 absolute top-1'/>
-        </div>
+    <div className="block h-auto overflow-hidden md:bg-blue-200 md:w-full md:grid md:grid-cols-2">
+      <div className="flex flex-col justify-center bg-gray-200  rounded mt-10 w-screen shadow-md md:w-full md:h-screen">
         <h2 className="text-gray-800 text-2xl font-bold mb-0 flex">Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
@@ -45,11 +42,15 @@ const Login: React.FC = () => {
           <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">
             Login
           </button>
-          <div><a href='#forgotten-password' className='text-black-700 hover:text-gray-50'>Forgotten password?</a></div>
+          <div>
+            <ul>
+              <Link to="/password" className="text-gray-800 hover:text-gray-500">Forgotten password?</Link>
+            </ul>
+          </div>
         </form>
       </div>
       <div>
-        <img src={prag} alt='driver' className='cover h-screen w-full overflow-hidden'/>
+        <img src={prag} alt='driver' className='cover  w-full overflow-hidden md:h-screen md:mt-10'/>
       </div>
     </div>
   );

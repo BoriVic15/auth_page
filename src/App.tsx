@@ -1,16 +1,13 @@
-import Login from './components/loginTest';
-import LostPassword from './components/lostPassword';
-import Registration from './components/signUp';
+// import Navbar from "./navBar";
+import Login from "./components/loginTest";
 
 function App() {
   return (
-    <div>  
+    <div>
+      {/* <Navbar /> */}
       <Login />
-      <LostPassword />
-      <Registration />
     </div>
-  )
-}
+  );
+};
 
-export default App
- 
+export default App;

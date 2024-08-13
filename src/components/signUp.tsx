@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const Registration: React.FC = () => {
     const [name, setName] = useState('');
     const [surname, setSurname] = useState('');
@@ -23,7 +24,7 @@ const handleSubmit = (e: React.FormEvent) => {
 }
 
 return (
-    <div className='great-grand-container  bg-gray-200 w-full h-screen flex justify-center items-center font-sans'>
+    <div className='great-grand-container  bg-gray-200 w-full h-screen flex justify-center items-center font-sans' id="register">
         <div className='container1 border-gray-300 border-4 border-double bg-gray-200 w-5/12 h-3/4 mb-4 px-4'>
             <h1 className='mb-1 font-sans font-bold text-3xl'>Sign Up</h1>
             <p>It is easy and quick</p><hr className='mb-3 h-1 bg-gray-400 border-0'/>
