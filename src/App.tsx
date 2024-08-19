@@ -1,11 +1,10 @@
-// import Navbar from "./navBar";
-import Login from "./components/loginTest";
+import Dashboard from "./components/dashboard";
+
 
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
-      <Login />
+      <Dashboard />
     </div>
   );
 };
