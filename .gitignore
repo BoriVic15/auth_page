@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 # Logs
+=======
+node_modules
+
+ Logs
+>>>>>>> origin/main
 logs
 *.log
 npm-debug.log*
@@ -22,8 +28,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
 
 node_modules/
 npm-debug.log
 yarn-error.log
 .env
+=======
+src/assets/Saved Pictures/VID-20240525-WA0003.mp4
+src/assets/Saved Pictures/VID-20240525-WA0002.mp4
+src/assets/Saved Pictures/VID-20240525-WA0004.mp4
+src/assets/Saved Pictures/IMG-20240525-WA0061.jpg
+>>>>>>> origin/main

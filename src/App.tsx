@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 import Dashboard from "./component/dashboard";
+=======
+import Dashboard from "./components/dashboard";
+
+>>>>>>> origin/main
 
 function App() {
   return (
